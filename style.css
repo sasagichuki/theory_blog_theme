@@ -104,7 +104,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
-	font-family: inherit;
+	font-family: "museo300";
 }
 
 html {
@@ -179,12 +179,12 @@ textarea {
 	color: #000000;
 	font-size: 16px;
 	font-size: 1.6rem;
-	font-family: 'museo300';
+	font-family: "museo300";
 	line-height: 1.5;
 }
 
 select {
-	font-family: 'museo300', Helvetica, Arial, sans-serif;
+	font-family: "museo300", Helvetica, Arial, sans-serif;
 	font-size: 13px !important; /* webkit annoyingly only lets <select> elements have a font-size of either 9px, 11px or 13px; forcing this to 13px maintains consistency */
 }
 
@@ -241,7 +241,7 @@ dfn, cite, em, i {
 blockquote {
 	margin-left: 1em;
 	font-style: italic;
-	font-family: 'museo700', Georgia, "Bitstream Charter", serif;
+	font-family: "museo700", Georgia, "Bitstream Charter", serif;
 	border-left: 3px solid;
 	border-color: #57ad68;
 	padding-left: 20px;
@@ -253,7 +253,7 @@ blockquote cite {
 
 blockquote h1, blockquote h2, blockquote h3, blockquote h4 {
 	font-weight: normal;
-	font-family: 'museo700', Georgia, "Bitstream Charter", serif;
+	font-family: "museo700", Georgia, "Bitstream Charter", serif;
 }
 
 address {
@@ -1570,7 +1570,7 @@ body {
 	margin: 0 0 20px 0;
 	color: #929292;
 	font-size: 13px;
-	font-family: inherit;
+	font-family: "museo300"
 	line-height: 1.4;
 	font-style: italic;
 	letter-spacing: inherit;
@@ -1599,7 +1599,7 @@ body {
 	margin: 5px 0 0 0;
 	color: #929292;
 	font-size: 12px;
-	font-family: inherit;
+	font-family: "museo300";
 	line-height: 2;
 	letter-spacing: inherit;
 	font-weight: inherit;
@@ -1688,7 +1688,7 @@ body {
 
 #infinite-footer .blog-credits {
 	color: #b3b3b1;
-	font-family: sans-serif;
+	font-family: "museo300";
 	font-weight: 100;
 }
 #infinite-footer .blog-info a:hover {
@@ -1714,7 +1714,7 @@ h4,
 h5,
 h6 {
 	margin: 20px 0;
-	font-family: "geomanist_regularregular", "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-family: "geomanist_regularregular", Helvetica, Arial, sans-serif;
 	color: #333332;
 	letter-spacing: -1px;
 	font-weight: 700;
@@ -1862,7 +1862,7 @@ article.first-post {
 .entry-meta a {
 	color: #b3b3b1;
 	font-size: 13px;
-	font-family: sans-serif;
+	font-family: "museo300";
 	font-weight: 100;
 	font-style: normal;
 	text-align: right;
@@ -1917,7 +1917,7 @@ article.first-post {
 	clear: left;
 	margin-left: -220px;
 	text-align: right;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-family: "museo300", Helvetica, Arial, sans-serif;
 	font-size: 15px;
 }
 
@@ -1960,7 +1960,7 @@ article.first-post {
 }
 
 .site-info {
-	font-family: sans-serif;
+	font-family: "geomanist_regularregular";
 	font-weight: 100;
 }
 
