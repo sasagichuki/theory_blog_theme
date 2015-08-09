@@ -179,12 +179,12 @@ textarea {
 	color: #000000;
 	font-size: 16px;
 	font-size: 1.6rem;
-	font-family: serif;
+	font-family: 'museo300';
 	line-height: 1.5;
 }
 
 select {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'museo300', Helvetica, Arial, sans-serif;
 	font-size: 13px !important; /* webkit annoyingly only lets <select> elements have a font-size of either 9px, 11px or 13px; forcing this to 13px maintains consistency */
 }
 
@@ -241,7 +241,7 @@ dfn, cite, em, i {
 blockquote {
 	margin-left: 1em;
 	font-style: italic;
-	font-family: Georgia, "Bitstream Charter", serif;
+	font-family: 'museo700', Georgia, "Bitstream Charter", serif;
 	border-left: 3px solid;
 	border-color: #57ad68;
 	padding-left: 20px;
@@ -253,7 +253,7 @@ blockquote cite {
 
 blockquote h1, blockquote h2, blockquote h3, blockquote h4 {
 	font-weight: normal;
-	font-family: Georgia, "Bitstream Charter", serif;
+	font-family: 'museo700', Georgia, "Bitstream Charter", serif;
 }
 
 address {
@@ -532,7 +532,7 @@ img.aligncenter {
 .main-navigation a {
 	text-decoration: none;
 	font-size: 15px;
-	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-family: "museo300", "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
 .main-navigation ul ul {
@@ -751,7 +751,7 @@ Accessibility
 
 .enhanced-excerpts .enhanced-excerpt-read-more a {
 	text-align: right;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "museo300", Georgia, "Times New Roman", Times, serif;
 	font-size: 1.4em;
 	color: #57ad68;
 }
@@ -771,7 +771,7 @@ Accessibility
 .entry-content .subtitle {
 	font-style: italic;
 	font-weight: normal;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "museo300", Georgia, "Times New Roman", Times, serif;
 	font-size: 1.3em;
 	line-height: 1.2em;
 	margin-top: -5px;
@@ -848,7 +848,7 @@ Accessibility
 }
 
 .format-chat .entry-content {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-family: "museo300", Monaco, Consolas, monospace;
 	background: #eee;
 	padding: 20px 20px 10px 20px;
 	margin-bottom: 2em;
@@ -1265,7 +1265,7 @@ ol.commentlist .avatar {
 }
 
 #pinglist {
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-family: "museo300", "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -1306,7 +1306,7 @@ ul.pinglist {
 }
 
 .taglist {
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-family: "museo300", "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -1359,7 +1359,7 @@ ul.taglist {
 .comment-form-subscriptions label,
 .comment-form-reply-title {
 	margin-right: 5px;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-family: "museo300", "Myriad Pro", Helvetica, Arial, sans-serif;
 	color: #b3b3b1;
 	display: block;
 	font-size: 16px;
@@ -1683,7 +1683,7 @@ body {
 }
 
 #infinite-footer .blog-info {
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-family: "museo300", "Myriad Pro", Helvetica, Arial, sans-serif;
 }
 
 #infinite-footer .blog-credits {
@@ -1714,7 +1714,7 @@ h4,
 h5,
 h6 {
 	margin: 20px 0;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-family: "geomanist_regularregular", "Myriad Pro", Helvetica, Arial, sans-serif;
 	color: #333332;
 	letter-spacing: -1px;
 	font-weight: 700;
@@ -2311,7 +2311,7 @@ table th {
 .single.post-cover-overlay-post-title .post-cover-title-head .entry-subtitle {
     font-weight: lighter;
     padding: 5px 0 10px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "geomanist_regularregular", Georgia, Times, serif;
     font-style: italic;
 }
 .single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta {
